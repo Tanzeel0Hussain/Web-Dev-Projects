@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CyberShield SOC Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="checkAuth()">
+
+<div class="dashboard">
+
+    <aside class="sidebar">
+        <h2>🛡 SOC Panel</h2>
+        <ul>
+            <li onclick="showSection('dashboard')">📊 Dashboard</li>
+            <li class="admin-only" onclick="showSection('alerts')">🚨 Alerts</li>
+            <li class="admin-only" onclick="showSection('systems')">🖥 Systems</li>
+            <li class="admin-only" onclick="showSection('network')">🌐 Network</li>
+            <li onclick="showSection('logs')">📁 Logs</li>
+            <li class="admin-only" onclick="showSection('settings')">⚙ Settings</li>
+            <li onclick="logout()">🚪 Logout</li>
+        </ul>
+    </aside>
+
+    <main class="main">
+
+        <header class="topbar">
+            <h1>CyberShield SOC</h1>
+            <span id="roleBadge"></span>
+        </header>
+
+        <section id="dashboard" class="content-section">
+            <h2>📊 Dashboard</h2>
+            <p>System running securely.</p>
+        </section>
+
+        <section id="alerts" class="content-section">
+            <h2>🚨 Alerts</h2>
+            <ul class="simple-list">
+                <li>Brute force detected</li>
+                <li>Suspicious login blocked</li>
+            </ul>
+        </section>
+
+        <section id="systems" class="content-section">
+            <h2>🖥 Systems</h2>
+            <p>All systems operational.</p>
+        </section>
+
+        <section id="network" class="content-section">
+            <h2>🌐 Network</h2>
+            <p>Network stable.</p>
+        </section>
+
+        <section id="logs" class="content-section">
+            <h2>📁 Logs</h2>
+            <ul class="simple-list">
+                <li>[INFO] Firewall active</li>
+                <li>[BLOCKED] Malware blocked</li>
+            </ul>
+        </section>
+
+        <section id="settings" class="content-section">
+            <h2>⚙ Settings</h2>
+            <p>Admin settings panel.</p>
+        </section>
+
+    </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
