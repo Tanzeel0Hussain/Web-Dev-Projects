@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SOC Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<div class="dashboard">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <h2>🛡 SOC Panel</h2>
+        <ul>
+            <li>📊 Dashboard</li>
+            <li>🚨 Alerts</li>
+            <li>🖥 Systems</li>
+            <li>🌐 Network</li>
+            <li>📁 Logs</li>
+            <li>⚙ Settings</li>
+        </ul>
+    </aside>
+
+    <!-- Main -->
+    <main class="main">
+
+        <header class="topbar">
+            <h1>Security Operations Center</h1>
+            <span class="status">🟢 System Secure</span>
+        </header>
+
+        <!-- Cards -->
+        <section class="cards">
+            <div class="card">
+                <h3>🚨 Threats</h3>
+                <p id="threats">12</p>
+            </div>
+            <div class="card">
+                <h3>🛡 Blocked Attacks</h3>
+                <p id="blocked">87</p>
+            </div>
+            <div class="card">
+                <h3>🖥 Active Systems</h3>
+                <p>24</p>
+            </div>
+            <div class="card">
+                <h3>🌐 Network</h3>
+                <p>Stable</p>
+            </div>
+        </section>
+
+        <!-- Charts -->
+        <section class="charts">
+            <div class="chart-box">
+                <h2>📈 Threat Activity</h2>
+                <canvas id="threatChart"></canvas>
+            </div>
+
+            <div class="chart-box">
+                <h2>🛡 Blocked Attacks</h2>
+                <canvas id="blockedChart"></canvas>
+            </div>
+        </section>
+
+        <!-- Logs -->
+        <section class="logs">
+            <h2>📁 Recent Security Logs</h2>
+            <ul id="logList"></ul>
+        </section>
+
+    </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
