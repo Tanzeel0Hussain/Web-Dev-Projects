@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Consolas, monospace;
+}
+
+body {
+    background: #0b0f14;
+    color: #00ff9c;
+}
+
+.dashboard {
+    display: flex;
+    height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 220px;
+    background: #05080d;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+    color: #00ffaa;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #0b0f14;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.sidebar li:hover {
+    background: #00ff9c;
+    color: black;
+}
+
+/* Main */
+.main {
+    flex: 1;
+    padding: 20px;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.status {
+    background: #003d2d;
+    padding: 6px 12px;
+    border-radius: 20px;
+}
+
+/* Cards */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: #05080d;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #00ff9c33;
+}
+
+.card p {
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+/* Logs */
+.logs {
+    background: #05080d;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.logs ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.logs li {
+    padding: 8px;
+    border-bottom: 1px solid #00ff9c22;
+}
