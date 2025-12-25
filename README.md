@@ -80,6 +80,14 @@ A **Cybersecurity-focused phishing detection tool**.
 
 ---
 
+### 9️⃣ [Email Phishing Detector](https://github.com/Tanzeel0Hussain/Web-Dev-Projects/tree/ea3e79390950185046d7cd3951fe808c3f6fcfff/Email%20Phishing%20Detector)
+A **Cybersecurity email analysis tool**.  
+- Detects phishing keywords  
+- Flags suspicious email content  
+- Instant phishing warning  
+- Dark cyber-themed UI  
+
+
 ## 🚀 Technologies Used
 - HTML5  
 - CSS3  
