@@ -62,6 +62,15 @@ A **Cybersecurity Incident Reporting Web App**.
 
 ---
 
+### 7️⃣ [Password Strength Checker](https://github.com/Tanzeel0Hussain/Web-Dev-Projects/tree/47e3e21f090386a910aa00fbba911fa6107535b3/Password%20Strength%20Checker)
+A **Cybersecurity-focused Password Validation App**.  
+- Real-time password strength checking  
+- Secure password rules validation  
+- Weak, Medium, Strong indicators  
+- Dark cyber-themed UI  
+
+---
+
 ## 🚀 Technologies Used
 - HTML5  
 - CSS3  
