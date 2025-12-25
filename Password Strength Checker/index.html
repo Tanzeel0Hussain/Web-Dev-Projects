@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Password Strength Checker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>🔐 Password Strength Checker</h1>
+
+  <input type="password" id="password" placeholder="Enter password" onkeyup="checkStrength()">
+
+  <div id="strength"></div>
+
+  <ul class="rules">
+    <li id="length">At least 8 characters</li>
+    <li id="upper">One uppercase letter</li>
+    <li id="lower">One lowercase letter</li>
+    <li id="number">One number</li>
+    <li id="special">One special character</li>
+  </ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
