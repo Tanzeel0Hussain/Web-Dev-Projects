@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cyber Incident Reporting System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🚨 Cyber Incident Reporting System</h1>
+
+<div class="form-container">
+  <input type="text" id="title" placeholder="Incident Title">
+  
+  <select id="type">
+    <option value="">Incident Type</option>
+    <option>Malware</option>
+    <option>Phishing</option>
+    <option>DDoS</option>
+    <option>Unauthorized Access</option>
+  </select>
+
+  <select id="severity">
+    <option value="">Severity Level</option>
+    <option>Low</option>
+    <option>Medium</option>
+    <option>High</option>
+    <option>Critical</option>
+  </select>
+
+  <textarea id="description" placeholder="Incident Description"></textarea>
+
+  <button onclick="addIncident()">Submit Incident</button>
+</div>
+
+<h2>📋 Reported Incidents</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Type</th>
+      <th>Severity</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody id="incidentList"></tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
