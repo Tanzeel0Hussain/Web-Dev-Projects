@@ -52,6 +52,16 @@ A **Weather UI App (API-less version)**.
 
 ---
 
+### 6️⃣ [Cyber Incident Reporting System](https://github.com/Tanzeel0Hussain/Web-Dev-Projects/tree/8e427d2580519c450b63bebf93ec92b38a9e023a/Cyber%20Incident%20Reporting%20System)
+A **Cybersecurity Incident Reporting Web App**.  
+- Report security incidents with title, type, and severity  
+- Severity levels: Low, Medium, High, Critical  
+- Incident list with date & time  
+- Data saved using LocalStorage  
+- Dark cyber-themed UI (SOC style)
+
+---
+
 ## 🚀 Technologies Used
 - HTML5  
 - CSS3  
