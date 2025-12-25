@@ -71,6 +71,15 @@ A **Cybersecurity-focused Password Validation App**.
 
 ---
 
+### 8️⃣ [Phishing URL Detector](https://github.com/Tanzeel0Hussain/Web-Dev-Projects/tree/9288a766a2bb35d4729fcb475cb4bfe78632980b/Phishing%20URL%20Detector)
+A **Cybersecurity-focused phishing detection tool**.  
+- Detects suspicious URLs using basic rules  
+- Flags phishing patterns and risky keywords  
+- Instant safe or warning result  
+- Dark cyber-themed UI  
+
+---
+
 ## 🚀 Technologies Used
 - HTML5  
 - CSS3  
