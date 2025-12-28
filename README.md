@@ -1,4 +1,4 @@
-# 🌐 Tanzeel Hussain - Web Dev Projects
+****# 🌐 Tanzeel Hussain - Web Dev Projects
 
 Welcome to my **Web Development Projects Portfolio**.  
 These projects showcase my skills in **HTML, CSS, JavaScript, and Frontend Development**.
@@ -95,6 +95,15 @@ An **advanced SOC-style dashboard**.
 - Uses JSON-based dynamic content  
 - Multi-section cyber dashboard  
 - Professional SOC UI design  
+
+---
+
+### [1️⃣1️⃣ AI-Based Log Anomaly Detection Dashboard](https://github.com/Tanzeel0Hussain/Web-Dev-Projects/tree/d8ea09c46c9de11668f25e6e259ef11bac861ad2/AI%20Log%20Anomaly%20Dashboard)
+An **AI-inspired SOC log analysis dashboard**.  
+- Detects anomalies using AI-style scoring  
+- Simulates modern SIEM intelligence  
+- Trending AI + Cybersecurity project  
+- Unique and portfolio-focused  
 
 ---
 
