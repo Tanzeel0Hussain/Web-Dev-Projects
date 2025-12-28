@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b0f1a;
+  color: #00ffcc;
+}
+
+header {
+  background: #11162a;
+  text-align: center;
+  padding: 15px;
+}
+
+.summary {
+  display: flex;
+  gap: 15px;
+  padding: 20px;
+}
+
+.card {
+  flex: 1;
+  background: #11162a;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.logs {
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #00ffcc;
+  padding: 8px;
+  text-align: center;
+}
+
+.anomaly {
+  color: red;
+  font-weight: bold;
+}
+
+.normal {
+  color: #00ffcc;
+}

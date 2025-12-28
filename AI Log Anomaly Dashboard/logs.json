@@ -1,0 +1,22 @@
+[
+  {
+    "time": "2025-01-12 10:12",
+    "event": "Multiple failed login attempts",
+    "score": 92
+  },
+  {
+    "time": "2025-01-12 10:20",
+    "event": "User login successful",
+    "score": 15
+  },
+  {
+    "time": "2025-01-12 10:35",
+    "event": "Access from unknown IP",
+    "score": 78
+  },
+  {
+    "time": "2025-01-12 10:50",
+    "event": "Malware signature detected",
+    "score": 95
+  }
+]

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Log Anomaly Detection Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>AI Log Anomaly Detection Dashboard</h1>
+</header>
+
+<section class="summary">
+  <div class="card">Total Logs: <span id="totalLogs"></span></div>
+  <div class="card">Anomalies Detected: <span id="anomalies"></span></div>
+  <div class="card">Risk Level: <span id="riskLevel"></span></div>
+</section>
+
+<section class="logs">
+  <h2>Security Logs</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Timestamp</th>
+        <th>Event</th>
+        <th>AI Score</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody id="logTable"></tbody>
+  </table>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
