@@ -107,6 +107,23 @@ An **AI-inspired SOC log analysis dashboard**.
 
 ---
 
+### 1️⃣2️⃣ [Website Safety & Trust Analyzer](https://github.com/Tanzeel0Hussain/Web-Dev-Projects/tree/398bf46e73a20cb811c61620b9958862e29d6078/Website%20Safety%20%26%20Trust%20Analyzer)
+A **Website Trust Evaluation Tool**.  
+- Paste any website URL for analysis  
+- Checks HTTP vs HTTPS security  
+- Detects SSL certificate presence  
+- Analyzes domain age (new domains = risky)  
+- Scans URL for phishing & scam keywords  
+- Detects suspicious URL patterns  
+- Simulates blacklist-based risk detection  
+- Identifies fake login / credential page behavior  
+- Calculates overall trust score (0–100)  
+- Explains clearly **why** a website is unsafe  
+- Cybersecurity-focused real-world project  
+- Clean, modern, security-themed UI  
+
+---
+
 ## 🚀 Technologies Used
 - HTML5  
 - CSS3  
