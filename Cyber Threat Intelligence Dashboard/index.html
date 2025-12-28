@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cyber Threat Intelligence Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🛡 Cyber Threat Intelligence Dashboard</h1>
+</header>
+
+<nav>
+  <button onclick="showSection('overview')">Overview</button>
+  <button onclick="showSection('threats')">Threats</button>
+  <button onclick="showSection('logs')">Logs</button>
+</nav>
+
+<section id="overview" class="section">
+  <h2>📊 Overview</h2>
+  <div class="cards">
+    <div class="card">Active Threats: <span id="activeThreats"></span></div>
+    <div class="card">Blocked Attacks: <span id="blockedAttacks"></span></div>
+    <div class="card">Risk Level: <span id="riskLevel"></span></div>
+  </div>
+</section>
+
+<section id="threats" class="section hidden">
+  <h2>Threat Intelligence</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Severity</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody id="threatTable"></tbody>
+  </table>
+</section>
+
+<section id="logs" class="section hidden">
+  <h2>Security Logs</h2>
+  <ul id="logList"></ul>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

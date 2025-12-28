@@ -1,0 +1,17 @@
+{
+  "overview": {
+    "activeThreats": 7,
+    "blockedAttacks": 124,
+    "riskLevel": "High"
+  },
+  "threats": [
+    { "type": "Phishing", "severity": "High", "status": "Active" },
+    { "type": "Malware", "severity": "Critical", "status": "Blocked" },
+    { "type": "DDoS", "severity": "Medium", "status": "Monitoring" }
+  ],
+  "logs": [
+    "Multiple failed login attempts detected",
+    "Malware blocked from external IP",
+    "Suspicious email quarantined"
+  ]
+}
