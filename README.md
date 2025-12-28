@@ -87,6 +87,16 @@ A **Cybersecurity email analysis tool**.
 - Instant phishing warning  
 - Dark cyber-themed UI  
 
+---
+
+### 🔟 [Cyber Threat Intelligence Dashboard](https://github.com/Tanzeel0Hussain/Web-Dev-Projects/tree/12e1de50b3849816a6634e31e973b76409d99c0d/Cyber%20Threat%20Intelligence%20Dashboard)
+An **advanced SOC-style dashboard**.  
+- Displays threat intelligence data  
+- Uses JSON-based dynamic content  
+- Multi-section cyber dashboard  
+- Professional SOC UI design  
+
+---
 
 ## 🚀 Technologies Used
 - HTML5  
