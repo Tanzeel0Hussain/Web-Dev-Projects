@@ -1,0 +1,7 @@
+{
+  "unsafe": [
+    "example-phish.com",
+    "fakebank-login.net",
+    "malicious-site.org"
+  ]
+}
