@@ -1,51 +1,36 @@
 # 🛡 Cyber Security SOC Dashboard
 
-A cyber-themed **Security Operations Center (SOC) Dashboard UI** built using  
-**HTML, CSS, and JavaScript**.  
-This project simulates real-time security monitoring with a dark hacker-style interface.
-
----
+A basic cyber-themed **Security Operations Center (SOC) dashboard simulation** built using HTML, CSS, and JavaScript.
 
 ## 🚀 Features
-- Cyber / hacker dark UI
-- Live simulated threats & blocked attacks
-- Real-time log generation
+- Dark cyber-themed UI
+- Live simulated threat and blocked-attack counters
+- Auto-generated security logs
+- Functional sidebar navigation
 - Responsive dashboard layout
-- SOC-style design for cybersecurity portfolio
-
----
 
 ## 🛠 Technologies Used
 - HTML5
-- CSS3 (Dark Cyber Theme)
+- CSS3
 - JavaScript (DOM & Timers)
-
----
 
 ## 📂 Project Structure
 
-- soc-dashboard/    
-- │ 
-- ├── index.html    
-- ├── style.css 
-- ├── script.js 
-- └── README.md 
-
----
+```text
+SOC Dashboard/
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
 
 ## 🎯 Purpose
-This project demonstrates:
-- Front-end dashboard design
+- Frontend dashboard practice
 - Cybersecurity-inspired UI
-- JavaScript dynamic data handling
+- JavaScript dynamic-data handling
 
----
+## ⚠ Note
+This is a frontend simulation for learning and portfolio use. It does not monitor real systems or networks.
 
 ## 👨‍💻 Author
-**Tanzeel Hussain**  
-Cybersecurity & Web Development Enthusiast
-
----
-
-## ⭐ Note
-This is a front-end simulation project intended for learning, practice, and portfolio showcase.
+**Tanzeel Hussain**
