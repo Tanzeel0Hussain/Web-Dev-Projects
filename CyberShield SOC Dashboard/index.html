@@ -2,40 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>SOC Dashboard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberShield SOC Dashboard</title>
     <link rel="stylesheet" href="style.css">
-
-    <!-- Chart.js CDN -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
 
-<div class="dashboard">
-
-    <!-- Sidebar -->
+<div class="dashboard" id="dashboardTop">
     <aside class="sidebar">
         <h2>🛡 SOC Panel</h2>
         <ul>
-            <li>📊 Dashboard</li>
-            <li>🚨 Alerts</li>
-            <li>🖥 Systems</li>
-            <li>🌐 Network</li>
-            <li>📁 Logs</li>
-            <li>⚙ Settings</li>
+            <li onclick="goToSection('dashboardTop')">📊 Dashboard</li>
+            <li onclick="goToSection('logsSection')">🚨 Alerts</li>
+            <li onclick="goToSection('cardsSection')">🖥 Systems</li>
+            <li onclick="goToSection('chartsSection')">🌐 Network</li>
+            <li onclick="goToSection('logsSection')">📁 Logs</li>
+            <li onclick="goToSection('settingsSection')">⚙ Settings</li>
         </ul>
     </aside>
 
-    <!-- Main -->
     <main class="main">
-
         <header class="topbar">
             <h1>Security Operations Center</h1>
             <span class="status">🟢 System Secure</span>
         </header>
 
-        <!-- Cards -->
-        <section class="cards">
+        <section class="cards" id="cardsSection">
             <div class="card">
                 <h3>🚨 Threats</h3>
                 <p id="threats">12</p>
@@ -54,25 +47,26 @@
             </div>
         </section>
 
-        <!-- Charts -->
-        <section class="charts">
+        <section class="charts" id="chartsSection">
             <div class="chart-box">
                 <h2>📈 Threat Activity</h2>
                 <canvas id="threatChart"></canvas>
             </div>
-
             <div class="chart-box">
                 <h2>🛡 Blocked Attacks</h2>
                 <canvas id="blockedChart"></canvas>
             </div>
         </section>
 
-        <!-- Logs -->
-        <section class="logs">
+        <section class="logs" id="logsSection">
             <h2>📁 Recent Security Logs</h2>
             <ul id="logList"></ul>
         </section>
 
+        <section class="logs" id="settingsSection">
+            <h2>⚙ Demo Settings</h2>
+            <p>This portfolio simulation generates sample SOC data in the browser every 3 seconds.</p>
+        </section>
     </main>
 </div>
 
