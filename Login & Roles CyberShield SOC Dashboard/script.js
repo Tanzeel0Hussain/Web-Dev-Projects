@@ -1,13 +1,15 @@
+const ROLE_KEY = "cybershieldSocRole";
+
 function login() {
-    const u = document.getElementById("username").value;
+    const u = document.getElementById("username").value.trim();
     const p = document.getElementById("password").value;
 
     if (u === "admin" && p === "admin123") {
-        localStorage.setItem("role", "admin");
+        localStorage.setItem(ROLE_KEY, "admin");
         window.location.href = "dashboard.html";
     }
     else if (u === "analyst" && p === "analyst123") {
-        localStorage.setItem("role", "analyst");
+        localStorage.setItem(ROLE_KEY, "analyst");
         window.location.href = "dashboard.html";
     }
     else {
@@ -16,7 +18,7 @@ function login() {
 }
 
 function checkAuth() {
-    const role = localStorage.getItem("role");
+    const role = localStorage.getItem(ROLE_KEY);
     if (!role) {
         window.location.href = "index.html";
         return;
@@ -37,10 +39,12 @@ function showSection(id) {
     document.querySelectorAll(".content-section").forEach(s => {
         s.classList.remove("active");
     });
-    document.getElementById(id).classList.add("active");
+
+    const target = document.getElementById(id);
+    if (target) target.classList.add("active");
 }
 
 function logout() {
-    localStorage.clear();
+    localStorage.removeItem(ROLE_KEY);
     window.location.href = "index.html";
 }
