@@ -1,12 +1,13 @@
 # 📧 Email Phishing Detector
 
-A simple frontend tool to detect phishing emails based on common patterns.
+A simple frontend educational tool that checks pasted email text for common phishing indicators.
 
 ## 🔹 Features
-- Analyzes email content
-- Detects phishing keywords
-- Flags suspicious links
-- Instant result
+- Analyzes pasted email content
+- Checks urgency and credential-request keywords
+- Checks basic suspicious link patterns
+- Detects plain HTTP links and common URL shorteners
+- Shows an instant risk warning
 - Dark cyber-themed UI
 
 ## 🛠 Technologies
@@ -15,7 +16,7 @@ A simple frontend tool to detect phishing emails based on common patterns.
 - JavaScript
 
 ## ⚠ Disclaimer
-This tool is for educational purposes only.
+This tool uses simple browser-side heuristics for education only. It does not inspect real email headers, sender reputation, attachments, malware, or external threat-intelligence services.
 
 ## 👨‍💻 Author
-Tanzeel Hussain
+**Tanzeel Hussain**
