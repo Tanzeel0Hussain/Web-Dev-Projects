@@ -1,145 +1,164 @@
-#### 🌐 Tanzeel Hussain - Web Dev Projects
+# 🌐 Tanzeel Hussain — Web Dev & Cybersecurity Projects
 
-Welcome to my **Web Development Projects Portfolio**.  
-These projects showcase my skills in **HTML, CSS, JavaScript, and Frontend Development**.
+A collection of **12 frontend web development and cybersecurity projects** built with HTML, CSS, JavaScript, LocalStorage, JSON, and Chart.js.
+
+> Most cybersecurity tools in this repository are **educational frontend simulations**. Their READMEs clearly describe their limitations and they should not be treated as production security scanners.
+
+## 🚀 Live Portfolio
+
+**GitHub Pages:** https://tanzeel0hussain.github.io/Web-Dev-Projects/
+
+The portfolio homepage includes search, category filters, live demos, and source links for all projects.
 
 ---
 
 ## 🔹 Projects
 
-### 1️⃣ [CyberShield SOC Dashboard](https://github.com/Tanzeel0Hussain/Web-Dev-Projects/tree/dc3d1816413392304b6dc5101dadf393c6910a31/CyberShield%20SOC%20Dashboard)
-A professional **Security Operations Center (SOC) Dashboard** simulation.  
-- Dark cyber-themed UI  
-- Live threat counters and blocked attacks  
-- Security logs display  
-- Perfect for cybersecurity portfolio  
+### 1️⃣ [CyberShield SOC Dashboard](./CyberShield%20SOC%20Dashboard/)
+A frontend **SOC dashboard simulation**.
+- Live simulated threat and blocked-attack counters
+- Auto-generated security logs
+- Chart.js threat charts
+- Functional sidebar navigation
+
+**[Live Demo](https://tanzeel0hussain.github.io/Web-Dev-Projects/CyberShield%20SOC%20Dashboard/)**
 
 ---
 
-### 2️⃣ [Login & Roles CyberShield SOC Dashboard](https://github.com/Tanzeel0Hussain/Web-Dev-Projects/tree/dc3d1816413392304b6dc5101dadf393c6910a31/Login%20%26%20Roles%20CyberShield%20SOC%20Dashboard)
-An advanced version of the SOC Dashboard with **Login & Role-Based Access Control**.  
-- Admin & Analyst roles  
-- Restricted menu items for different roles  
-- Demo of authentication using **LocalStorage**  
-- Portfolio-ready cybersecurity UI project  
+### 2️⃣ [Login & Roles CyberShield SOC Dashboard](./Login%20%26%20Roles%20CyberShield%20SOC%20Dashboard/)
+A frontend **login and role-based SOC interface simulation**.
+- Admin and Analyst demo roles
+- Role-based menu visibility
+- Project-specific LocalStorage session
+- Clear security disclaimer
+
+**[Live Demo](https://tanzeel0hussain.github.io/Web-Dev-Projects/Login%20%26%20Roles%20CyberShield%20SOC%20Dashboard/)**
 
 ---
 
-### 3️⃣ [SOC Dashboard](https://github.com/Tanzeel0Hussain/Web-Dev-Projects/tree/dc3d1816413392304b6dc5101dadf393c6910a31/SOC%20Dashboard)
-The **basic version** of SOC Dashboard for learning purposes.  
-- Dashboard cards and charts  
-- Threat & blocked attacks simulation  
-- Security logs section  
-- Cybersecurity themed layout  
+### 3️⃣ [SOC Dashboard](./SOC%20Dashboard/)
+A basic **SOC dashboard simulation** for learning.
+- Live simulated counters
+- Auto-generated logs
+- Functional sidebar navigation
+- Cybersecurity-themed UI
+
+**[Live Demo](https://tanzeel0hussain.github.io/Web-Dev-Projects/SOC%20Dashboard/)**
 
 ---
 
-### 4️⃣ [Todo List App](https://github.com/Tanzeel0Hussain/Web-Dev-Projects/tree/dc3d1816413392304b6dc5101dadf393c6910a31/Todo%20List%20App)
-A **Simple Todo List Web App** built using **HTML, CSS, and JavaScript**.  
-- Add, delete, and mark tasks as completed  
-- User-friendly interface  
-- LocalStorage support for saving tasks  
-- Great for beginners and portfolio  
+### 4️⃣ [Todo List App](./Todo%20List%20App/)
+A responsive **To-Do List Web App**.
+- Add, complete, and delete tasks
+- LocalStorage persistence
+- Enter-key support
+- Responsive UI
+
+**[Live Demo](https://tanzeel0hussain.github.io/Web-Dev-Projects/Todo%20List%20App/)**
 
 ---
 
-### 5️⃣ [Weather App](https://github.com/Tanzeel0Hussain/Web-Dev-Projects/tree/dc3d1816413392304b6dc5101dadf393c6910a31/Weather%20App)
-A **Weather UI App (API-less version)**.  
-- Enter city name to see simulated weather  
-- Random temperature, humidity, and condition  
-- Responsive design with modern UI  
-- Frontend logic showcase project  
+### 5️⃣ [Weather App](./Weather%20App/)
+An **API-less Weather UI App**.
+- Enter any city name
+- Random simulated temperature, humidity, condition, and wind
+- No API key required
+- Responsive frontend demo
+
+**[Live Demo](https://tanzeel0hussain.github.io/Web-Dev-Projects/Weather%20App/)**
 
 ---
 
-### 6️⃣ [Cyber Incident Reporting System](https://github.com/Tanzeel0Hussain/Web-Dev-Projects/tree/8e427d2580519c450b63bebf93ec92b38a9e023a/Cyber%20Incident%20Reporting%20System)
-A **Cybersecurity Incident Reporting Web App**.  
-- Report security incidents with title, type, and severity  
-- Severity levels: Low, Medium, High, Critical  
-- Incident list with date & time  
-- Data saved using LocalStorage  
-- Dark cyber-themed UI (SOC style)
+### 6️⃣ [Cyber Incident Reporting System](./Cyber%20Incident%20Reporting%20System/)
+A browser-based **cyber incident reporting simulation**.
+- Title, type, severity, and description
+- Date/time history
+- LocalStorage persistence
+- Delete reported incidents
+
+**[Live Demo](https://tanzeel0hussain.github.io/Web-Dev-Projects/Cyber%20Incident%20Reporting%20System/)**
 
 ---
 
-### 7️⃣ [Password Strength Checker](https://github.com/Tanzeel0Hussain/Web-Dev-Projects/tree/47e3e21f090386a910aa00fbba911fa6107535b3/Password%20Strength%20Checker)
-A **Cybersecurity-focused Password Validation App**.  
-- Real-time password strength checking  
-- Secure password rules validation  
-- Weak, Medium, Strong indicators  
-- Dark cyber-themed UI  
+### 7️⃣ [Password Strength Checker](./Password%20Strength%20Checker/)
+A **rule-based password composition checker**.
+- Real-time feedback
+- Length, uppercase, lowercase, number, and special-character rules
+- Weak / Medium / Strong indicator
+
+**[Live Demo](https://tanzeel0hussain.github.io/Web-Dev-Projects/Password%20Strength%20Checker/)**
 
 ---
 
-### 8️⃣ [Phishing URL Detector](https://github.com/Tanzeel0Hussain/Web-Dev-Projects/tree/9288a766a2bb35d4729fcb475cb4bfe78632980b/Phishing%20URL%20Detector)
-A **Cybersecurity-focused phishing detection tool**.  
-- Detects suspicious URLs using basic rules  
-- Flags phishing patterns and risky keywords  
-- Instant safe or warning result  
-- Dark cyber-themed UI  
+### 8️⃣ [Phishing URL Detector](./Phishing%20URL%20Detector/)
+An educational **URL phishing-indicator analyzer**.
+- Checks HTTP, IP-based URLs, `@`, length, subdomains, punycode, keywords, and selected TLDs
+- Uses browser-side heuristics
+- Clear educational disclaimer
+
+**[Live Demo](https://tanzeel0hussain.github.io/Web-Dev-Projects/Phishing%20URL%20Detector/)**
 
 ---
 
-### 9️⃣ [Email Phishing Detector](https://github.com/Tanzeel0Hussain/Web-Dev-Projects/tree/ea3e79390950185046d7cd3951fe808c3f6fcfff/Email%20Phishing%20Detector)
-A **Cybersecurity email analysis tool**.  
-- Detects phishing keywords  
-- Flags suspicious email content  
-- Instant phishing warning  
-- Dark cyber-themed UI  
+### 9️⃣ [Email Phishing Detector](./Email%20Phishing%20Detector/)
+An educational **email-text phishing indicator tool**.
+- Checks urgency and credential-request phrases
+- Checks plain HTTP links and common shorteners
+- Browser-side heuristic scoring
+
+**[Live Demo](https://tanzeel0hussain.github.io/Web-Dev-Projects/Email%20Phishing%20Detector/)**
 
 ---
 
-### 🔟 [Cyber Threat Intelligence Dashboard](https://github.com/Tanzeel0Hussain/Web-Dev-Projects/tree/12e1de50b3849816a6634e31e973b76409d99c0d/Cyber%20Threat%20Intelligence%20Dashboard)
-An **advanced SOC-style dashboard**.  
-- Displays threat intelligence data  
-- Uses JSON-based dynamic content  
-- Multi-section cyber dashboard  
-- Professional SOC UI design  
+### 🔟 [Cyber Threat Intelligence Dashboard](./Cyber%20Threat%20Intelligence%20Dashboard/)
+A **SOC-style threat intelligence dashboard simulation**.
+- Overview cards
+- Threat table and logs
+- JSON-based dynamic content
+- Data-loading error handling
+
+**[Live Demo](https://tanzeel0hussain.github.io/Web-Dev-Projects/Cyber%20Threat%20Intelligence%20Dashboard/)**
 
 ---
 
-### [1️⃣1️⃣ AI-Based Log Anomaly Detection Dashboard](https://github.com/Tanzeel0Hussain/Web-Dev-Projects/tree/d8ea09c46c9de11668f25e6e259ef11bac861ad2/AI%20Log%20Anomaly%20Dashboard)
-An **AI-inspired SOC log analysis dashboard**.  
-- Detects anomalies using AI-style scoring  
-- Simulates modern SIEM intelligence  
-- Trending AI + Cybersecurity project  
-- Unique and portfolio-focused  
+### 1️⃣1️⃣ [AI-Inspired Log Anomaly Dashboard](./AI%20Log%20Anomaly%20Dashboard/)
+An **AI-inspired anomaly-scoring simulation**.
+- JSON log loading
+- Score threshold anomaly detection
+- Low / Medium / High summary
+- Explicitly not a real ML model
+
+**[Live Demo](https://tanzeel0hussain.github.io/Web-Dev-Projects/AI%20Log%20Anomaly%20Dashboard/)**
 
 ---
 
-### 1️⃣2️⃣ [Website Safety & Trust Analyzer](https://github.com/Tanzeel0Hussain/Web-Dev-Projects/tree/398bf46e73a20cb811c61620b9958862e29d6078/Website%20Safety%20%26%20Trust%20Analyzer)
-A **Website Trust Evaluation Tool**.  
-- Paste any website URL for analysis  
-- Checks HTTP vs HTTPS security  
-- Detects SSL certificate presence  
-- Analyzes domain age (new domains = risky)  
-- Scans URL for phishing & scam keywords  
-- Detects suspicious URL patterns  
-- Simulates blacklist-based risk detection  
-- Identifies fake login / credential page behavior  
-- Calculates overall trust score (0–100)  
-- Explains clearly **why** a website is unsafe  
-- Cybersecurity-focused real-world project  
-- Clean, modern, security-themed UI  
+### 1️⃣2️⃣ [Website Safety & Trust Analyzer](./Website%20Safety%20%26%20Trust%20Analyzer/)
+A reason-based **URL risk indicator tool**.
+- Checks HTTPS, length, IP-based URLs, `@`, punycode, subdomains, keywords, and selected TLDs
+- Small local demo blacklist
+- Low / medium / higher-risk score
+- Does not claim real SSL, domain-age, or malware-reputation verification
+
+**[Live Demo](https://tanzeel0hussain.github.io/Web-Dev-Projects/Website%20Safety%20%26%20Trust%20Analyzer/)**
 
 ---
 
-## 🚀 Technologies Used
-- HTML5  
-- CSS3  
-- JavaScript (Vanilla JS)  
-- LocalStorage (for login & todo apps)  
-- Chart.js (for SOC dashboards)
+## 🛠 Technologies Used
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
+- LocalStorage
+- JSON
+- Chart.js
 
----
+## 📌 Repository Notes
+- Every project has its own README with accurate feature and limitation details.
+- JSON-based projects are intended to run through GitHub Pages or another web server.
+- Project links use the current repository structure instead of old commit-specific URLs.
 
 ## 👨‍💻 Author
 **Tanzeel Hussain**  
 Cybersecurity & Web Development Enthusiast
 
----
-
-## 🔗 Connect
-Check out all projects directly on my GitHub repository:
-
-- [GitHub Profile](https://github.com/Tanzeel0Hussain)
+## 🔗 GitHub
+[github.com/Tanzeel0Hussain](https://github.com/Tanzeel0Hussain)
