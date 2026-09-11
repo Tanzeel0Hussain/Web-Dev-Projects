@@ -1,11 +1,14 @@
 # 🎣 Phishing URL Detector
 
-A simple frontend-based phishing URL detection tool.
+A frontend educational tool that checks URLs for common phishing indicators using basic heuristics.
 
 ## 🔹 Features
-- Detects suspicious URLs using basic heuristics
-- Checks for IP-based URLs, long URLs, symbols, and keywords
-- Instant phishing warning
+- Detects plain HTTP URLs
+- Checks IP-address-based URLs
+- Detects `@` symbols, very long URLs, excessive subdomains, punycode, and repeated hyphens
+- Checks phishing-related keywords
+- Flags selected higher-risk domain endings
+- Instant risk result
 - Dark cyber-themed UI
 
 ## 🛠 Technologies
@@ -14,7 +17,7 @@ A simple frontend-based phishing URL detection tool.
 - JavaScript
 
 ## ⚠ Disclaimer
-This tool is for educational purposes only and does not replace real-world security solutions.
+This project uses simple browser-side heuristics for educational purposes only. A low-risk result does **not** guarantee that a URL is safe and this tool does not replace real browser reputation or threat-intelligence services.
 
 ## 👨‍💻 Author
-Tanzeel Hussain
+**Tanzeel Hussain**
