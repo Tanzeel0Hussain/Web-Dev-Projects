@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tanzeel Hussain's web development and cybersecurity project portfolio.">
+  <title>Tanzeel Hussain | Web Dev & Cybersecurity Projects</title>
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav wrap">
+      <a class="brand" href="#top">TH<span>.</span></a>
+      <div class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="https://github.com/Tanzeel0Hussain" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </nav>
+
+    <div class="hero-content wrap" id="top">
+      <p class="eyebrow">WEB DEVELOPMENT × CYBERSECURITY</p>
+      <h1>Projects built to learn, test, and demonstrate real frontend ideas.</h1>
+      <p class="hero-copy">A live collection of browser-based dashboards, security awareness tools, utilities, and JavaScript projects by Tanzeel Hussain.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#projects">Explore Projects</a>
+        <a class="btn secondary" href="https://github.com/Tanzeel0Hussain/Web-Dev-Projects" target="_blank" rel="noopener noreferrer">View Repository</a>
+      </div>
+      <div class="stats" aria-label="Portfolio statistics">
+        <div><strong>12</strong><span>Projects</span></div>
+        <div><strong>4</strong><span>Core Technologies</span></div>
+        <div><strong>100%</strong><span>Open Source</span></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="projects-section wrap" id="projects">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">PROJECT LIBRARY</p>
+          <h2>Explore the collection</h2>
+        </div>
+        <label class="search-box">
+          <span>⌕</span>
+          <input id="searchInput" type="search" placeholder="Search projects..." autocomplete="off">
+        </label>
+      </div>
+
+      <div class="filters" id="filters" aria-label="Project filters">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="cybersecurity">Cybersecurity</button>
+        <button class="filter" data-filter="dashboard">Dashboards</button>
+        <button class="filter" data-filter="utility">Utilities</button>
+      </div>
+
+      <div class="project-grid" id="projectGrid"></div>
+      <p class="empty-state" id="emptyState" hidden>No projects match your search.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-content">
+      <div>
+        <strong>Tanzeel Hussain</strong>
+        <p>Cybersecurity & Web Development Enthusiast</p>
+      </div>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="portfolio.js"></script>
+</body>
+</html>
