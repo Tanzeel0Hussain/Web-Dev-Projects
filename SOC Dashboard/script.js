@@ -1,6 +1,11 @@
 let threats = 12;
 let blocked = 87;
 
+function goToSection(id) {
+    const section = document.getElementById(id);
+    if (section) section.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
 setInterval(() => {
     threats += Math.floor(Math.random() * 3);
     blocked += Math.floor(Math.random() * 5);
@@ -19,7 +24,6 @@ setInterval(() => {
     const logList = document.getElementById("logList");
     const li = document.createElement("li");
     li.innerText = logs[Math.floor(Math.random() * logs.length)];
-
     logList.prepend(li);
 
     if (logList.children.length > 6) {
