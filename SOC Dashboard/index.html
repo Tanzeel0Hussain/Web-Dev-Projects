@@ -2,37 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>SOC Dashboard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOC Dashboard</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="dashboard">
-
-    <!-- Sidebar -->
+<div class="dashboard" id="dashboardTop">
     <aside class="sidebar">
         <h2>🛡 SOC Panel</h2>
         <ul>
-            <li>📊 Dashboard</li>
-            <li>🚨 Alerts</li>
-            <li>🖥 Systems</li>
-            <li>🌐 Network</li>
-            <li>📁 Logs</li>
-            <li>⚙ Settings</li>
+            <li onclick="goToSection('dashboardTop')">📊 Dashboard</li>
+            <li onclick="goToSection('logsSection')">🚨 Alerts</li>
+            <li onclick="goToSection('cardsSection')">🖥 Systems</li>
+            <li onclick="goToSection('cardsSection')">🌐 Network</li>
+            <li onclick="goToSection('logsSection')">📁 Logs</li>
+            <li onclick="goToSection('settingsSection')">⚙ Settings</li>
         </ul>
     </aside>
 
-    <!-- Main Content -->
     <main class="main">
-
         <header class="topbar">
             <h1>Security Operations Center</h1>
             <span class="status">🟢 System Secure</span>
         </header>
 
-        <!-- Stats -->
-        <section class="cards">
+        <section class="cards" id="cardsSection">
             <div class="card">
                 <h3>🚨 Threats</h3>
                 <p id="threats">12</p>
@@ -51,8 +46,7 @@
             </div>
         </section>
 
-        <!-- Logs -->
-        <section class="logs">
+        <section class="logs" id="logsSection">
             <h2>📁 Recent Security Logs</h2>
             <ul id="logList">
                 <li>[INFO] Firewall initialized</li>
@@ -61,6 +55,10 @@
             </ul>
         </section>
 
+        <section class="logs" id="settingsSection">
+            <h2>⚙ Demo Settings</h2>
+            <p>This is a frontend SOC simulation with automatically generated sample events.</p>
+        </section>
     </main>
 </div>
 
