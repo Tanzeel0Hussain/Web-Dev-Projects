@@ -1,31 +1,39 @@
 fetch("logs.json")
-  .then(res => res.json())
+  .then(res => {
+    if (!res.ok) throw new Error("Unable to load log data");
+    return res.json();
+  })
   .then(data => {
     const table = document.getElementById("logTable");
+    table.innerHTML = "";
     let anomalyCount = 0;
 
     data.forEach(log => {
-      let status = "Normal";
-      let className = "normal";
+      const isAnomaly = Number(log.score) >= 70;
+      if (isAnomaly) anomalyCount++;
 
-      if (log.score >= 70) {
-        status = "Anomaly";
-        className = "anomaly";
-        anomalyCount++;
-      }
+      const row = document.createElement("tr");
+      const values = [log.time, log.event, log.score];
 
-      table.innerHTML += `
-        <tr>
-          <td>${log.time}</td>
-          <td>${log.event}</td>
-          <td>${log.score}</td>
-          <td class="${className}">${status}</td>
-        </tr>
-      `;
+      values.forEach(value => {
+        const cell = document.createElement("td");
+        cell.textContent = value;
+        row.appendChild(cell);
+      });
+
+      const statusCell = document.createElement("td");
+      statusCell.className = isAnomaly ? "anomaly" : "normal";
+      statusCell.textContent = isAnomaly ? "Anomaly" : "Normal";
+      row.appendChild(statusCell);
+      table.appendChild(row);
     });
 
     document.getElementById("totalLogs").innerText = data.length;
     document.getElementById("anomalies").innerText = anomalyCount;
     document.getElementById("riskLevel").innerText =
-      anomalyCount >= 2 ? "High" : "Medium";
+      anomalyCount >= 2 ? "High" : anomalyCount === 1 ? "Medium" : "Low";
+  })
+  .catch(error => {
+    console.error(error);
+    document.getElementById("riskLevel").innerText = "Data Error";
   });
