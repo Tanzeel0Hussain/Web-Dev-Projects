@@ -1,19 +1,25 @@
 # 🔍 Website Safety & Trust Analyzer
 
-This project analyzes any pasted website URL and determines whether
-it appears safe or unsafe based on multiple security checks.
+A frontend educational tool that analyzes a pasted URL for common suspicious patterns and explains the reasons behind the result.
 
-## 🔹 What This Project Does
-- Checks if the website uses HTTPS
-- Detects suspicious URL patterns
-- Identifies phishing-related keywords
-- Flags IP-based and free-domain websites
-- Explains WHY a website is unsafe
+## 🔹 What This Project Checks
+- HTTP vs HTTPS
+- Very long URLs
+- IP-address-based URLs
+- `@` symbols that may hide destinations
+- Punycode domains
+- Excessive subdomains
+- Phishing-related keywords
+- Selected higher-risk domain endings
+- A small local demo blacklist
 
-## 🚀 Why This Project Is Unique
-Most student projects only show "Safe / Unsafe".
-This project provides **reason-based security analysis**, similar to
-real-world tools like Google Safe Browsing.
+## 🚀 Features
+- Reason-based URL analysis
+- Simple risk score
+- Clear low / medium / higher-risk result
+- Local JSON blacklist check
+- Graceful fallback if blacklist data cannot load
+- Security-themed frontend UI
 
 ## 🛠 Technologies Used
 - HTML
@@ -22,13 +28,12 @@ real-world tools like Google Safe Browsing.
 - JSON
 
 ## 🎯 Use Case
-- Cyber awareness tools
-- Educational security demonstrations
-- Beginner-friendly website trust analysis
+- Cyber awareness demonstrations
+- Frontend cybersecurity portfolio
+- Learning URL-based phishing indicators
 
 ## ⚠ Disclaimer
-This tool is for educational purposes only and does not replace
-professional security scanners.
+This tool uses browser-side heuristics only. It does **not** verify SSL certificate validity, domain age, malware reputation, DNS records, page content, or real external threat-intelligence databases. A low score does not guarantee that a website is safe.
 
 ## 👨‍💻 Author
-Tanzeel Hussain
+**Tanzeel Hussain**
