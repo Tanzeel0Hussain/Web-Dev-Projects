@@ -1,12 +1,10 @@
 let threats = 12;
 let blocked = 87;
 
-// Chart Data
 let labels = [];
 let threatData = [];
 let blockedData = [];
 
-// Threat Chart
 const threatCtx = document.getElementById("threatChart").getContext("2d");
 const threatChart = new Chart(threatCtx, {
     type: "line",
@@ -21,7 +19,6 @@ const threatChart = new Chart(threatCtx, {
     }
 });
 
-// Blocked Chart
 const blockedCtx = document.getElementById("blockedChart").getContext("2d");
 const blockedChart = new Chart(blockedCtx, {
     type: "bar",
@@ -35,7 +32,6 @@ const blockedChart = new Chart(blockedCtx, {
     }
 });
 
-// Logs
 const logs = [
     "[INFO] Firewall active",
     "[WARNING] Brute force detected",
@@ -44,7 +40,11 @@ const logs = [
     "[BLOCKED] SQL Injection attempt"
 ];
 
-// Live Update
+function goToSection(id) {
+    const section = document.getElementById(id);
+    if (section) section.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
 setInterval(() => {
     const time = new Date().toLocaleTimeString();
 
@@ -75,5 +75,4 @@ setInterval(() => {
     if (logList.children.length > 6) {
         logList.removeChild(logList.lastChild);
     }
-
 }, 3000);
