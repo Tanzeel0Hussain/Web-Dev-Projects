@@ -10,12 +10,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
+    padding: 20px;
 }
 
 .container {
     background: white;
-    width: 350px;
+    width: min(100%, 380px);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
@@ -33,6 +34,7 @@ h1 {
 
 input {
     flex: 1;
+    min-width: 0;
     padding: 8px;
     border-radius: 5px;
     border: 1px solid #ccc;
@@ -64,13 +66,35 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 10px;
+}
+
+.task-text {
+    flex: 1;
+    cursor: pointer;
+    overflow-wrap: anywhere;
+}
+
+li.completed .task-text {
+    text-decoration: line-through;
+    opacity: 0.55;
 }
 
 .delete-btn {
-    background: red;
+    background: #dc3545;
     color: white;
     border: none;
     padding: 5px 8px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.delete-btn:hover {
+    background: #b02a37;
+}
+
+@media (max-width: 420px) {
+    .input-box {
+        flex-direction: column;
+    }
 }
