@@ -1,21 +1,15 @@
-# 🛡 Cyber Security SOC Dashboard (With Threat Charts)
+# 🛡 CyberShield SOC Dashboard (With Threat Charts)
 
-A professional **Security Operations Center (SOC) Dashboard** built using  
-HTML, CSS, JavaScript, and Chart.js.
-
-This dashboard simulates real-time cyber threats, blocked attacks, logs, and visual graphs.
-
----
+A frontend **Security Operations Center (SOC) dashboard simulation** built with HTML, CSS, JavaScript, and Chart.js.
 
 ## 🚀 Features
-- Dark cyber / hacker UI
-- Live threat counter
-- Blocked attacks monitoring
-- Real-time security logs
-- Threat & attack charts
-- SOC-style dashboard layout
-
----
+- Dark cyber-themed SOC UI
+- Live simulated threat counter
+- Simulated blocked-attack counter
+- Auto-generated security logs
+- Threat and blocked-attack charts
+- Functional sidebar navigation
+- Responsive dashboard layout
 
 ## 🛠 Technologies Used
 - HTML5
@@ -23,33 +17,23 @@ This dashboard simulates real-time cyber threats, blocked attacks, logs, and vis
 - JavaScript (ES6)
 - Chart.js
 
----
-
 ## 📂 Project Structure
 
-- CyberShield-SOC-dashboard/    
-- │ 
-- ├── index.html    
-- ├── style.css 
-- ├── script.js 
-- └── README.md 
-
-
----
+```text
+CyberShield SOC Dashboard/
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
 
 ## 🎯 Use Case
 - Cybersecurity portfolio
 - SOC dashboard UI practice
-- Front-end dashboard development
-- Ethical hacking showcase
+- Frontend dashboard development
 
----
+## ⚠ Note
+All threat data is simulated in the browser for learning and portfolio purposes. This dashboard is not connected to a real SOC, SIEM, firewall, or monitoring backend.
 
 ## 👨‍💻 Author
-**Tanzeel Hussain**  
-Cybersecurity & Ethical Hacking Enthusiast
-
----
-
-## ⭐ Note
-This is a front-end simulation project for learning and portfolio purposes only.
+**Tanzeel Hussain**
