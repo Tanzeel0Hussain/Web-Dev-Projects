@@ -1,11 +1,14 @@
 # 🔐 Password Strength Checker
 
-A simple cybersecurity-based web app to check password strength in real time.
+A simple cybersecurity-focused frontend app that checks password composition in real time.
 
 ## 🔹 Features
 - Real-time password strength checking
-- Validation rules display
+- Minimum-length validation
+- Uppercase and lowercase checks
+- Number and special-character checks
 - Weak / Medium / Strong indicator
+- Clear empty-password state
 - Cyber-themed dark UI
 
 ## 🛠 Technologies
@@ -14,7 +17,10 @@ A simple cybersecurity-based web app to check password strength in real time.
 - JavaScript
 
 ## 🎯 Use Case
-Helpful for understanding secure password practices and frontend validation.
+Helpful for learning password-validation rules and frontend form feedback.
+
+## ⚠ Note
+This is a rule-based strength indicator. It does not check password breaches, dictionary attacks, entropy, or online password databases.
 
 ## 👨‍💻 Author
-Tanzeel Hussain
+**Tanzeel Hussain**
