@@ -3,6 +3,8 @@ body {
   color: #00ffcc;
   font-family: Arial, sans-serif;
   text-align: center;
+  margin: 0;
+  padding: 20px;
 }
 
 h1, h2 {
@@ -11,7 +13,7 @@ h1, h2 {
 
 .form-container {
   background: #11162a;
-  width: 350px;
+  width: min(100%, 380px);
   margin: auto;
   padding: 20px;
   border-radius: 10px;
@@ -24,6 +26,12 @@ input, select, textarea {
   background: #0b0f1a;
   border: 1px solid #00ffcc;
   color: #00ffcc;
+  box-sizing: border-box;
+}
+
+textarea {
+  min-height: 90px;
+  resize: vertical;
 }
 
 button {
@@ -34,10 +42,21 @@ button {
   color: black;
   font-weight: bold;
   cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  opacity: 0.88;
+}
+
+.table-wrap {
+  width: 100%;
+  overflow-x: auto;
 }
 
 table {
-  width: 90%;
+  width: 95%;
+  min-width: 780px;
   margin: auto;
   border-collapse: collapse;
 }
@@ -45,4 +64,12 @@ table {
 th, td {
   border: 1px solid #00ffcc;
   padding: 8px;
+  vertical-align: top;
+}
+
+.delete-btn {
+  width: auto;
+  background: #ff4d4d;
+  color: white;
+  padding: 7px 10px;
 }
