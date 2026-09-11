@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cyber Incident Reporting System</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -11,7 +12,7 @@
 
 <div class="form-container">
   <input type="text" id="title" placeholder="Incident Title">
-  
+
   <select id="type">
     <option value="">Incident Type</option>
     <option>Malware</option>
@@ -34,17 +35,21 @@
 </div>
 
 <h2>📋 Reported Incidents</h2>
-<table>
-  <thead>
-    <tr>
-      <th>Title</th>
-      <th>Type</th>
-      <th>Severity</th>
-      <th>Date</th>
-    </tr>
-  </thead>
-  <tbody id="incidentList"></tbody>
-</table>
+<div class="table-wrap">
+  <table>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Type</th>
+        <th>Severity</th>
+        <th>Description</th>
+        <th>Date</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody id="incidentList"></tbody>
+  </table>
+</div>
 
 <script src="script.js"></script>
 </body>
